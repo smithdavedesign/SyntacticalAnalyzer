@@ -10,5 +10,11 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - name: Build and run the course tests
-        run: make test
+      - name: Build (warnings as errors) and run the course tests
+        run: make test CXXFLAGS="-std=c++17 -O2 -Wall -Wextra -Werror -Wno-unused-parameter"
+  sanitizers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Course tests under AddressSanitizer + UndefinedBehaviorSanitizer
+        run: make test CXX=clang++ CXXFLAGS="-std=c++17 -O1 -g -fsanitize=address,undefined -fno-omit-frame-pointer"
