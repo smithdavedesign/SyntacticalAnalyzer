@@ -1,0 +1,8 @@
+Input file: test.ss
+   1: ; This is a very small test file
+   2: 
+   3: (define (main)
+   4: 	(display (car '(a b (car ls))))
+   5: 	(newline)
+   6: )
+0 errors found in input file

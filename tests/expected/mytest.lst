@@ -1,0 +1,39 @@
+Input file: mytest.ss
+   1: (define (arithmetic a b c)
+   2:   (if (not (= 0 b))
+   3:       (+ (/ (* a (- b c)) 2) (- (/ a b) 2 c))
+   4:       (+ (/ (* a (- b c)) 2) (- (/ a 4) 2 c))
+   5:       )
+   6:   )
+   7: 
+   8: (define (concat l1 l2)
+   9:   (if (null? l1)
+  10:       l2
+  11:       (cons (car l1) (concat (cdr l1) l2))
+  12:       )
+  13:   )
+  14: 
+  15: (define (listops1 sym ls1 ls2)
+  16:   (cons sym (concat ls1 ls2))
+  17:   )
+  18: 
+  19: (define (listops2 ls)
+  20:   (if (not (list? ls))
+  21:       'argument_must_be_a_list
+  22:       (caddr (cdddr ls))
+  23:       )
+  24:   )
+  25: 
+  26: (define (main)
+  27:   (display (arithmetic 5 7 9))
+  28:   (newline)
+  29:   (display (arithmetic 5 0 9))
+  30:   (newline)
+  31:   (display (listops1 5 '(aa bb cc) '(1 3 5 7 11 13)))
+  32:   (newline)
+  33:   (display (listops2 '(a b c (d e f g) h i j)))
+  34:   (newline)
+  35:   (display (listops2 'a))
+  36:   (newline)
+  37:   )
+0 errors found in input file

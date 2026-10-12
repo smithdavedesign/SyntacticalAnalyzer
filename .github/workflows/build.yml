@@ -1,0 +1,14 @@
+name: build
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and run the course tests
+        run: make test

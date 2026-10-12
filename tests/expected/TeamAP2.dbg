@@ -1,0 +1,2099 @@
+Input file: TeamAP2.ss
+   1: ; Assignment: Project 2 Testing
+   2: ; Authors: Nazania Barraza, Scott Mitchel, & JT Palmer
+   3: ; Date: Monday, April 23, 2017
+   4: ; Description: A testing file that will make sure our project 2 works correctly for every token type/grammer rule.
+   5: 
+   6: 
+   7: (define (equalities a b c d)
+	LPAREN_T        (
+program function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         equalities
+	IDENT_T         a
+param function called
+	IDENT_T         b
+param function called
+	IDENT_T         c
+param function called
+	IDENT_T         d
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+   8:   (if (and (= a b) (= c d)) ; Checking AND_T and rule 22.
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	AND_T           and
+action function called
+	LPAREN_T        (
+stmt function called
+stmt function called
+	EQUALTO_T       =
+action function called
+	IDENT_T         a
+stmt function called
+stmt function called
+	IDENT_T         b
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	EQUALTO_T       =
+action function called
+	IDENT_T         c
+stmt function called
+stmt function called
+	IDENT_T         d
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+   9:       (display 'both_equal)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         both_equal
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  10:       (if (or (= a b) (= c d)) ; Checking OR_T and rule 23.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	OR_T            or
+action function called
+	LPAREN_T        (
+stmt function called
+stmt function called
+	EQUALTO_T       =
+action function called
+	IDENT_T         a
+stmt function called
+stmt function called
+	IDENT_T         b
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	EQUALTO_T       =
+action function called
+	IDENT_T         c
+stmt function called
+stmt function called
+	IDENT_T         d
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  11: 	  (display 'one_equal)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         one_equal
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  12: 	  (display 'no_equal)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         no_equal
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  13: 	  )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  14:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  15:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  16:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+  17: 
+  18: (define (checkInput a)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         checkInput
+	IDENT_T         a
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  19:   (if (number? a) ; Checking NUMBERP_T and rule 25.
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NUMBERP_T       number?
+action function called
+	IDENT_T         a
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  20:       (if (zero? a) ; Checking ZEROP_T and rule 28.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	ZEROP_T         zero?
+action function called
+	IDENT_T         a
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  21: 	  (display 'is_zero)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         is_zero
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  22: 	  (display 'is_number)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         is_number
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  23: 	  )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  24:       (if (string? a) ; Checking STRINGP_T and rule 31.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	STRINGP_T       string?
+action function called
+	IDENT_T         a
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  25: 	  (display 'is_string)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         is_string
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  26: 	  (if (symbol? a) ; Checking SYMBOLP_T and rule 26.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	SYMBOLP_T       symbol?
+action function called
+	IDENT_T         a
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  27: 	      (display 'is_symbol)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         is_symbol
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  28: 	      (if (char? a) ; Checking CHARP_T and rule 30.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	CHARP_T         char?
+action function called
+	IDENT_T         a
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  29: 		  (display 'is_character)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         is_character
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  30: 		  )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else function called
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  31: 	      )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  32: 	  )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  33:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  34:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  35:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+  36: 
+  37: (define (quantities a b)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         quantities
+	IDENT_T         a
+param function called
+	IDENT_T         b
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  38:   (if (<= a b) ; Checking LTE_T and rule 40.
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	LTE_T           <=
+action function called
+	IDENT_T         a
+stmt function called
+stmt function called
+	IDENT_T         b
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  39:       (if (< a b) ; Checking LT_T and rule 38.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	LT_T            <
+action function called
+	IDENT_T         a
+stmt function called
+stmt function called
+	IDENT_T         b
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  40: 	  (display 'a<b)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         a
+quoted_lit function called
+any_other_token function called
+	LT_T            <
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+	IDENT_T         b
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  41: 	  (display 'a<=b)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         a
+quoted_lit function called
+any_other_token function called
+	LTE_T           <=
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+	IDENT_T         b
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  42: 	  )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  43:       (if (>= a b) ; Checking GTE_T and rule 39.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	GTE_T           >=
+action function called
+	IDENT_T         a
+stmt function called
+stmt function called
+	IDENT_T         b
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  44: 	  (if (> a b) ; Checking GT_T and rule 37.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	GT_T            >
+action function called
+	IDENT_T         a
+stmt function called
+stmt function called
+	IDENT_T         b
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  45: 	      (display 'a>b)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         a
+quoted_lit function called
+any_other_token function called
+	GT_T            >
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+	IDENT_T         b
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  46: 	      (display 'a>=b)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         a
+quoted_lit function called
+any_other_token function called
+	GTE_T           >=
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+	IDENT_T         b
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  47: 	      )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  48: 	  )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else function called
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  49:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  50:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  51:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+  52: 
+  53: (define (isCoolLetter n)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         isCoolLetter
+	IDENT_T         n
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  54:   (if (= n 'n) ; Checking rule 18.
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	EQUALTO_T       =
+action function called
+	IDENT_T         n
+stmt function called
+stmt function called
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+literal function called
+	IDENT_T         n
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  55:       (display 'Very_Cool_Letter)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         Very_Cool_Letter
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  56:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else function called
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  57:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  58:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+  59: 
+  60: (define (checkAnyOtherTokens)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         checkAnyOtherTokens
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+  61:   (display 'cons) ; Checking rule 47.
+	LPAREN_T        (
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	CONS_T          cons
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  62:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  63:   (display 'if) ; Checking rule 48.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IF_T            if
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  64:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  65:   (display 'display) ; Checking rule 49.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	DISPLAY_T       display
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  66:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  67:   (display 'newline) ; Checking rule 50.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	NEWLINE_T       newline
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  68:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  69:   (display 'car) ; Checking rule 51.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	LISTOP_T        car
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  70:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  71:   (display 'and) ; Checking rule 52.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	AND_T           and
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  72:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  73:   (display 'or) ; Checking rule 53.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	OR_T            or
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  74:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  75:   (display 'not) ; Checking rule 54.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	NOT_T           not
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  76:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  77:   (display 'define) ; Checking rule 55.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	DEFINE_T        define
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  78:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  79:   (display 'number?) ; Checking rule 56.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	NUMBERP_T       number?
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  80:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  81:   (display 'symbol?) ; Checking rule 57.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	SYMBOLP_T       symbol?
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  82:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  83:   (display 'list?) ; Checking rule 58.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	LISTP_T         list?
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  84:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  85:   (display 'zero?) ; Checking rule 59.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	ZEROP_T         zero?
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  86:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  87:   (display 'null?) ; Checking rule 60.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	NULLP_T         null?
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  88:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  89:   (display 'char?) ; Checking rule 61.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	CHARP_T         char?
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  90:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  91:   (display 'string?) ; Checking rule 62.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	STRINGP_T       string?
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  92:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  93:   (display '+) ; Checking rule 63.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	PLUS_T          +
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  94:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  95:   (display '-) ; Checking rule 64.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	MINUS_T         -
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  96:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  97:   (display '/) ; Checking rule 65.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	DIV_T           /
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  98:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+  99:   (display '*) ; Checking rule 66.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	MULT_T          *
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 100:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+ 101:   (display '=) ; Checking rule 67.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	EQUALTO_T       =
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 102:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+ 103:   (display '>) ; Checking rule 68.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	GT_T            >
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 104:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+ 105:   (display '<) ; Checking rule 69.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	LT_T            <
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 106:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+ 107:   (display '>=) ; Checking rule 70.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	GTE_T           >=
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 108:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+ 109:   (display '<=) ; Checking rule 71.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	LTE_T           <=
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 110:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+ 111:   (display 'naz_is_amazing) ; Checking rule 72.
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	DISPLAY_T       display
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	IDENT_T         naz_is_amazing
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 112:   (newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+ 113:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+define function returning 0 errors
+
+more_defines function called
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+program function returning 0 errors
+0 errors found in input file
