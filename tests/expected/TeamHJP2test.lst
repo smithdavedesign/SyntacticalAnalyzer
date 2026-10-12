@@ -1,0 +1,229 @@
+Input file: TeamHJP2test.ss
+   1: (define (a n)
+   2:   (if (= n 0)
+   3:       (= n -1)
+   4:       )
+   5:   )
+   6: 
+   7: (define (b n)
+   8:   (if (and (n 0))
+   9:       (or (n 1))
+  10:       )
+  11:   )
+  12: 
+  13: (define (c n)
+  14:   (if (number? n)
+  15:       '()
+  16:       (if (symbol? n)
+  17: 	  'a
+  18: 	  )
+  19:       )
+  20:   )
+  21: 
+  22: (define (d n)
+  23:   (if (zero? n)
+  24:       (if (char? n)
+  25: 	  (if (string? n)
+  26: 	      'a
+  27: 	      'b
+  28: 	      )
+  29: 	  )
+  30:       )
+  31:   )
+  32: 
+  33: (define (e n)
+  34:   (if (> 0 n)
+  35:       (if (< 0 n)
+  36: 	  (if (>= 0 n)
+  37: 	      (if (<= 0 n)
+  38: 		  'a
+  39: 		  'b
+  40: 		  )
+  41: 	      )
+  42: 	  )
+  43:       )
+  44:   )
+  45: 
+  46: (define (reciprocal n)
+  47:   (if (= n 0)
+  48:          (= n -1)
+  49:          (/ 1 n)
+  50:   )
+  51: )
+  52: 
+  53: (define (square n)
+  54:   (* n n)
+  55: )
+  56: 
+  57: (define (list_sumr mylist)
+  58:   (if (null? mylist)
+  59:       0
+  60:       (+ (car mylist) (list_sumr (cdr mylist)))
+  61:       )
+  62:   )
+  63: 
+  64: (define (list_copy mylist)
+  65:   (if (null? mylist)
+  66:       '()
+  67:       (cons (car mylist) (list_copy (cdr mylist)))
+  68:       )
+  69:   )
+  70: 
+  71: (define (x1 mylist)
+  72:   (if (null? mylist)
+  73:       '(abc)
+  74:       '123
+  75:       )
+  76:   )
+  77: 
+  78: (define (x2 mylist)
+  79:   (if (null? mylist)
+  80:       'abc
+  81:       'cons
+  82:       )
+  83:   )
+  84: 
+  85: (define (x3 mylist)
+  86:   (if (null? mylist)
+  87:       'if
+  88:       'display
+  89:       )
+  90:   )
+  91: 
+  92: (define (x4 mylist)
+  93:   (if (null? mylist)
+  94:       'newline
+  95:       'car
+  96:       )
+  97:   )
+  98: 
+  99: (define (x5 mylist)
+ 100:   (if (null? mylist)
+ 101:       'and
+ 102:       'or
+ 103:       )
+ 104:   )
+ 105: 
+ 106: (define (x6 mylist)
+ 107:   (if (null? mylist)
+ 108:       'not
+ 109:       'define
+ 110:       )
+ 111:   )
+ 112: 
+ 113: (define (x7 mylist)
+ 114:   (if (null? mylist)
+ 115:       '+
+ 116:       '-
+ 117:       )
+ 118:   )
+ 119: 
+ 120: (define (x8 mylist)
+ 121:   (if (null? mylist)
+ 122:       '/
+ 123:       '*
+ 124:       )
+ 125:   )
+ 126: 
+ 127: (define (x9 mylist)
+ 128:   (if (null? mylist)
+ 129:       '=
+ 130:       '>
+ 131:       )
+ 132:   )
+ 133: 
+ 134: (define (x10 mylist)
+ 135:   (if (null? mylist)
+ 136:       '<
+ 137:       '>=
+ 138:       )
+ 139:   )
+ 140: 
+ 141: (define (x11 mylist)
+ 142:   (if (null? mylist)
+ 143:       '<=
+ 144:       ''
+ 145:       )
+ 146:   )
+ 147: 
+ 148: (define (x12 mylist)
+ 149:   (if (null? mylist)
+ 150:       'number?
+ 151:       'symbol?
+ 152:       )
+ 153:   )
+ 154: 
+ 155: (define (x13 mylist)
+ 156:   (if (null? mylist)
+ 157:       'list?
+ 158:       'zero?
+ 159:       )
+ 160:   )
+ 161: 
+ 162: (define (x14 mylist)
+ 163:   (if (null? mylist)
+ 164:       'null?
+ 165:       'char?
+ 166:       )
+ 167:   )
+ 168: 
+ 169: (define (x15 mylist)
+ 170:   (if (null? mylist)
+ 171:       'string?
+ 172:       )
+ 173:   )
+ 174: 
+ 175: (define (odd_copy mylist)
+ 176:   (if (null? mylist)
+ 177:       '()
+ 178:       (if (null? (cdr mylist))
+ 179: 	  (cons (car mylist) '())
+ 180: 	  (cons (car mylist) (odd_copy (cddr mylist)))
+ 181: 	  )
+ 182:       )
+ 183:   )
+ 184: 
+ 185: (define (even_copy mylist)
+ 186:   (if (null? mylist)
+ 187:       '()
+ 188:       (if (null? (cdr mylist))
+ 189: 	  '()
+ 190: 	  (cons (cadr mylist) (even_copy (cddr mylist)))
+ 191:       )
+ 192:   )
+ 193: )
+ 194: 
+ 195: (define (last mylist)
+ 196:   (if (null? mylist)
+ 197:       '()
+ 198:       (if (null? (cdr mylist))
+ 199: 	  (cons (car mylist) '())
+ 200: 	  (last (cdr mylist))
+ 201: 	  )
+ 202:       )
+ 203:   )
+ 204: 
+ 205: (define (insert_last myvalue mylist)
+ 206:   (if (null? mylist)
+ 207:       (cons myvalue '())
+ 208:       (cons (car mylist) (insert_last myvalue (cdr mylist)))
+ 209:       )
+ 210:   )
+ 211: 
+ 212: (define (remove_last mylist)
+ 213:   (if (null? mylist)
+ 214:       '()
+ 215:       (if (null? (cdr mylist))
+ 216: 	  '()
+ 217: 	  (cons (car mylist) (remove_last (cdr mylist)))
+ 218: 	  )
+ 219:       )
+ 220:   )
+ 221: 
+ 222: (define (list_reverse mylist)
+ 223:   (if (null? mylist)
+ 224:       '()
+ 225:       (reverse mylist)
+ 226:       )
+ 227:   )
+0 errors found in input file

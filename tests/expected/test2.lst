@@ -1,0 +1,180 @@
+Input file: test2.ss
+   1: (define (reciprocal n)
+   2:   (if (= n 0)
+   3:          (= n -1)
+   4:          (/ 1 n)
+   5:   )
+   6: )
+   7: 
+   8: (define (square n)
+   9:   (* n n)
+  10: )
+  11: 
+  12: (define (list_sumr mylist)
+  13:   (if (null? mylist)
+  14:       0
+  15:       (+ (car mylist) (list_sumr (cdr mylist)))
+  16:       )
+  17:   )
+  18: 
+  19: (define (list_copy mylist)
+  20:   (if (null? mylist)
+  21:       '()
+  22:       (cons (car mylist) (list_copy (cdr mylist)))
+  23:       )
+  24:   )
+  25: 
+  26: (define (x1 mylist)
+  27:   (if (null? mylist)
+  28:       '(abc)
+  29:       '123
+  30:       )
+  31:   )
+  32: 
+  33: (define (x2 mylist)
+  34:   (if (null? mylist)
+  35:       'abc
+  36:       'cons
+  37:       )
+  38:   )
+  39: 
+  40: (define (x3 mylist)
+  41:   (if (null? mylist)
+  42:       'if
+  43:       'display
+  44:       )
+  45:   )
+  46: 
+  47: (define (x4 mylist)
+  48:   (if (null? mylist)
+  49:       'newline
+  50:       'car
+  51:       )
+  52:   )
+  53: 
+  54: (define (x5 mylist)
+  55:   (if (null? mylist)
+  56:       'and
+  57:       'or
+  58:       )
+  59:   )
+  60: 
+  61: (define (x6 mylist)
+  62:   (if (null? mylist)
+  63:       'not
+  64:       'define
+  65:       )
+  66:   )
+  67: 
+  68: (define (x7 mylist)
+  69:   (if (null? mylist)
+  70:       '+
+  71:       '-
+  72:       )
+  73:   )
+  74: 
+  75: (define (x8 mylist)
+  76:   (if (null? mylist)
+  77:       '/
+  78:       '*
+  79:       )
+  80:   )
+  81: 
+  82: (define (x9 mylist)
+  83:   (if (null? mylist)
+  84:       '=
+  85:       '>
+  86:       )
+  87:   )
+  88: 
+  89: (define (x10 mylist)
+  90:   (if (null? mylist)
+  91:       '<
+  92:       '>=
+  93:       )
+  94:   )
+  95: 
+  96: (define (x11 mylist)
+  97:   (if (null? mylist)
+  98:       '<=
+  99:       ''
+ 100:       )
+ 101:   )
+ 102: 
+ 103: (define (x12 mylist)
+ 104:   (if (null? mylist)
+ 105:       'ls
+ 106:       '0
+ 107:       )
+ 108:   )
+ 109: 
+ 110: (define (x13 mylist)
+ 111:   (if (null? mylist)
+ 112:       '5
+ 113:       '%
+Error at 113,8: Invalid character found: %
+ 114:       )
+ 115:   )
+ 116: 
+ 117: (define (x14 mylist)
+ 118:   (if (null? mylist)
+ 119:       'c
+ 120:       'string
+ 121:       )
+ 122:   )
+ 123: 
+ 124: 
+ 125: (define (odd_copy mylist)
+ 126:   (if (null? mylist)
+ 127:       '()
+ 128:       (if (null? (cdr mylist))
+ 129: 	  (cons (car mylist) '())
+ 130: 	  (cons (car mylist) (odd_copy (cddr mylist)))
+ 131: 	  )
+ 132:       )
+ 133:   )
+ 134: 
+ 135: (define (even_copy mylist)
+ 136:   (if (null? mylist)
+ 137:       '()
+ 138:       (if (null? (cdr mylist))
+ 139: 	  '()
+ 140: 	  (cons (cadr mylist) (even_copy (cddr mylist)))
+ 141:       )
+ 142:   )
+ 143: )
+ 144: 
+ 145: (define (last mylist)
+ 146:   (if (null? mylist)
+ 147:       '()
+ 148:       (if (null? (cdr mylist))
+ 149: 	  (cons (car mylist) '())
+ 150: 	  (last (cdr mylist))
+ 151: 	  )
+ 152:       )
+ 153:   )
+ 154: 
+ 155: (define (insert_last myvalue mylist)
+ 156:   (if (null? mylist)
+ 157:       (cons myvalue '())
+ 158:       (cons (car mylist) (insert_last myvalue (cdr mylist)))
+ 159:       )
+ 160:   )
+ 161: 
+ 162: (define (remove_last mylist)
+ 163:   (if (null? mylist)
+ 164:       '()
+ 165:       (if (null? (cdr mylist))
+ 166: 	  '()
+ 167: 	  (cons (car mylist) (remove_last (cdr mylist)))
+ 168: 	  )
+ 169:       )
+ 170:   )
+ 171: 
+ 172: (define (list_reverse mylist)
+ 173:   (if (null? mylist)
+ 174:       '()
+ 175:       (reverse mylist)
+ 176:       )
+ 177:   )
+1 errors found in input file

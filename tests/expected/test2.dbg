@@ -1,0 +1,2526 @@
+Input file: test2.ss
+   1: (define (reciprocal n)
+	LPAREN_T        (
+program function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         reciprocal
+	IDENT_T         n
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+   2:   (if (= n 0)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	EQUALTO_T       =
+action function called
+	IDENT_T         n
+stmt function called
+stmt function called
+	NUMLIT_T        0
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+literal function called
+	RPAREN_T        )
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+   3:          (= n -1)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	EQUALTO_T       =
+action function called
+	IDENT_T         n
+stmt function called
+stmt function called
+	NUMLIT_T        -1
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+literal function called
+	RPAREN_T        )
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+   4:          (/ 1 n)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	DIV_T           /
+action function called
+	NUMLIT_T        1
+stmt function called
+literal function called
+	IDENT_T         n
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+   5:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+   6: )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+   7: 
+   8: (define (square n)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         square
+	IDENT_T         n
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+   9:   (* n n)
+	LPAREN_T        (
+stmt function called
+	MULT_T          *
+action function called
+	IDENT_T         n
+stmt function called
+stmt function called
+	IDENT_T         n
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  10: )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  11: 
+  12: (define (list_sumr mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         list_sumr
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  13:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  14:       0
+	NUMLIT_T        0
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+  15:       (+ (car mylist) (list_sumr (cdr mylist)))
+	LPAREN_T        (
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	PLUS_T          +
+action function called
+	LPAREN_T        (
+stmt function called
+stmt function called
+	LISTOP_T        car
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	IDENT_T         list_sumr
+action function called
+	LPAREN_T        (
+stmt function called
+stmt function called
+	LISTOP_T        cdr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+  16:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  17:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  18: 
+  19: (define (list_copy mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         list_copy
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  20:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  21:       '()
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+  22:       (cons (car mylist) (list_copy (cdr mylist)))
+	LPAREN_T        (
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	CONS_T          cons
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        car
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	IDENT_T         list_copy
+action function called
+	LPAREN_T        (
+stmt function called
+stmt function called
+	LISTOP_T        cdr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  23:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  24:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  25: 
+  26: (define (x1 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x1
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  27:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  28:       '(abc)
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	IDENT_T         abc
+more_tokens function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+more_tokens function called
+more_tokens function returning 0 errors
+
+more_tokens function returning 0 errors
+
+  29:       '123
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	NUMLIT_T        123
+quoted_lit function called
+any_other_token function called
+  30:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  31:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  32: 
+  33: (define (x2 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x2
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  34:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  35:       'abc
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	IDENT_T         abc
+quoted_lit function called
+any_other_token function called
+  36:       'cons
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	CONS_T          cons
+quoted_lit function called
+any_other_token function called
+  37:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  38:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  39: 
+  40: (define (x3 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x3
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  41:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  42:       'if
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	IF_T            if
+quoted_lit function called
+any_other_token function called
+  43:       'display
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	DISPLAY_T       display
+quoted_lit function called
+any_other_token function called
+  44:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  45:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  46: 
+  47: (define (x4 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x4
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  48:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  49:       'newline
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	NEWLINE_T       newline
+quoted_lit function called
+any_other_token function called
+  50:       'car
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	LISTOP_T        car
+quoted_lit function called
+any_other_token function called
+  51:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  52:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  53: 
+  54: (define (x5 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x5
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  55:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  56:       'and
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	AND_T           and
+quoted_lit function called
+any_other_token function called
+  57:       'or
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	OR_T            or
+quoted_lit function called
+any_other_token function called
+  58:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  59:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  60: 
+  61: (define (x6 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x6
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  62:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  63:       'not
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	NOT_T           not
+quoted_lit function called
+any_other_token function called
+  64:       'define
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	DEFINE_T        define
+quoted_lit function called
+any_other_token function called
+  65:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  66:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  67: 
+  68: (define (x7 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x7
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  69:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  70:       '+
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	PLUS_T          +
+quoted_lit function called
+any_other_token function called
+  71:       '-
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	MINUS_T         -
+quoted_lit function called
+any_other_token function called
+  72:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  73:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  74: 
+  75: (define (x8 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x8
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  76:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  77:       '/
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	DIV_T           /
+quoted_lit function called
+any_other_token function called
+  78:       '*
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	MULT_T          *
+quoted_lit function called
+any_other_token function called
+  79:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  80:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  81: 
+  82: (define (x9 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x9
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  83:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  84:       '=
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	EQUALTO_T       =
+quoted_lit function called
+any_other_token function called
+  85:       '>
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	GT_T            >
+quoted_lit function called
+any_other_token function called
+  86:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  87:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  88: 
+  89: (define (x10 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x10
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  90:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  91:       '<
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LT_T            <
+quoted_lit function called
+any_other_token function called
+  92:       '>=
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	GTE_T           >=
+quoted_lit function called
+any_other_token function called
+  93:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+  94:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+  95: 
+  96: (define (x11 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x11
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+  97:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+  98:       '<=
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LTE_T           <=
+quoted_lit function called
+any_other_token function called
+  99:       ''
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	QUOTE_T         '
+quoted_lit function called
+any_other_token function called
+ 100:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 101:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+ 102: 
+ 103: (define (x12 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x12
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+ 104:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 105:       'ls
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	IDENT_T         ls
+quoted_lit function called
+any_other_token function called
+ 106:       '0
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	NUMLIT_T        0
+quoted_lit function called
+any_other_token function called
+ 107:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 108:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+ 109: 
+ 110: (define (x13 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x13
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+ 111:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 112:       '5
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	NUMLIT_T        5
+quoted_lit function called
+any_other_token function called
+ 113:       '%
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+Error at 113,8: Invalid character found: %
+	ERROR_T         %
+quoted_lit function called
+any_other_token function called
+ 114:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 115:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+ 116: 
+ 117: (define (x14 mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         x14
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+ 118:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 119:       'c
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	IDENT_T         c
+quoted_lit function called
+any_other_token function called
+ 120:       'string
+	QUOTE_T         '
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+literal function called
+	IDENT_T         string
+quoted_lit function called
+any_other_token function called
+ 121:       )
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 122:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+ 123: 
+ 124: 
+ 125: (define (odd_copy mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         odd_copy
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+ 126:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 127:       '()
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+ 128:       (if (null? (cdr mylist))
+	LPAREN_T        (
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        cdr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 129: 	  (cons (car mylist) '())
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	CONS_T          cons
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        car
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 130: 	  (cons (car mylist) (odd_copy (cddr mylist)))
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	CONS_T          cons
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        car
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	IDENT_T         odd_copy
+action function called
+	LPAREN_T        (
+stmt function called
+stmt function called
+	LISTOP_T        cddr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 131: 	  )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 132:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 133:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+ 134: 
+ 135: (define (even_copy mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         even_copy
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+ 136:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 137:       '()
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+ 138:       (if (null? (cdr mylist))
+	LPAREN_T        (
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        cdr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 139: 	  '()
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+ 140: 	  (cons (cadr mylist) (even_copy (cddr mylist)))
+	LPAREN_T        (
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	CONS_T          cons
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        cadr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	IDENT_T         even_copy
+action function called
+	LPAREN_T        (
+stmt function called
+stmt function called
+	LISTOP_T        cddr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 141:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 142:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 143: )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+ 144: 
+ 145: (define (last mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         last
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+ 146:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 147:       '()
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+ 148:       (if (null? (cdr mylist))
+	LPAREN_T        (
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        cdr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 149: 	  (cons (car mylist) '())
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	CONS_T          cons
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        car
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 150: 	  (last (cdr mylist))
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IDENT_T         last
+action function called
+	LPAREN_T        (
+stmt function called
+stmt function called
+	LISTOP_T        cdr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+ 151: 	  )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 152:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 153:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+ 154: 
+ 155: (define (insert_last myvalue mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         insert_last
+	IDENT_T         myvalue
+param function called
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+ 156:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 157:       (cons myvalue '())
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	CONS_T          cons
+action function called
+	IDENT_T         myvalue
+stmt function called
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 158:       (cons (car mylist) (insert_last myvalue (cdr mylist)))
+	LPAREN_T        (
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	CONS_T          cons
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        car
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	IDENT_T         insert_last
+action function called
+	IDENT_T         myvalue
+stmt function called
+stmt function called
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	LISTOP_T        cdr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 159:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 160:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+ 161: 
+ 162: (define (remove_last mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         remove_last
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+ 163:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 164:       '()
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+ 165:       (if (null? (cdr mylist))
+	LPAREN_T        (
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        cdr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 166: 	  '()
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+ 167: 	  (cons (car mylist) (remove_last (cdr mylist)))
+	LPAREN_T        (
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	CONS_T          cons
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        car
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+	IDENT_T         remove_last
+action function called
+	LPAREN_T        (
+stmt function called
+stmt function called
+	LISTOP_T        cdr
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 168: 	  )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 169:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 170:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+ 171: 
+ 172: (define (list_reverse mylist)
+	LPAREN_T        (
+define function returning 0 errors
+
+more_defines function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         list_reverse
+	IDENT_T         mylist
+param function called
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+param_list function returning 0 errors
+
+ 173:   (if (null? mylist)
+	LPAREN_T        (
+stmt function called
+	IF_T            if
+action function called
+	LPAREN_T        (
+stmt function called
+	NULLP_T         null?
+action function called
+	IDENT_T         mylist
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+ 174:       '()
+	QUOTE_T         '
+stmt function returning 0 errors
+
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	RPAREN_T        )
+more_tokens function called
+more_tokens function returning 0 errors
+
+ 175:       (reverse mylist)
+	LPAREN_T        (
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+else function called
+stmt function called
+	IDENT_T         reverse
+action function called
+	IDENT_T         mylist
+stmt function called
+stmt function called
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+action function returning 0 errors
+
+ 176:       )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+else_part function returning 0 errors
+
+action function returning 0 errors
+
+ 177:   )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+define function returning 0 errors
+
+more_defines function called
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+more_defines function returning 0 errors
+program function returning 0 errors
+1 errors found in input file

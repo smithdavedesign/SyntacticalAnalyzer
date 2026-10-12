@@ -1,0 +1,7 @@
+# build output
+p2
+build/
+*.o
+*.out
+*.gch
+.DS_Store

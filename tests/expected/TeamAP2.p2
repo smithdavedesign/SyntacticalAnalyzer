@@ -1,0 +1,1551 @@
+Starting <program>. Current token = LPAREN_T
+Using rule 1
+Starting <define>. Current token = LPAREN_T
+Using rule 2
+Starting <param_list>. Current token = IDENT_T
+Using rule 15
+Starting <param_list>. Current token = IDENT_T
+Using rule 15
+Starting <param_list>. Current token = IDENT_T
+Using rule 15
+Starting <param_list>. Current token = IDENT_T
+Using rule 15
+Starting <param_list>. Current token = RPAREN_T
+Using rule 16
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = AND_T
+Using rule 22
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = EQUALTO_T
+Using rule 36
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = IDENT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = EQUALTO_T
+Using rule 36
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = IDENT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <else_part>. Current token = LPAREN_T
+Using rule 17
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = OR_T
+Using rule 23
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = EQUALTO_T
+Using rule 36
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = IDENT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = EQUALTO_T
+Using rule 36
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = IDENT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <else_part>. Current token = LPAREN_T
+Using rule 17
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <define>. Current token = LPAREN_T. Errors = 0
+Starting <more_defines>. Current token = LPAREN_T
+Using rule 3
+Starting <define>. Current token = LPAREN_T
+Using rule 2
+Starting <param_list>. Current token = IDENT_T
+Using rule 15
+Starting <param_list>. Current token = RPAREN_T
+Using rule 16
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NUMBERP_T
+Using rule 25
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = ZEROP_T
+Using rule 28
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <else_part>. Current token = LPAREN_T
+Using rule 17
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <else_part>. Current token = LPAREN_T
+Using rule 17
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = STRINGP_T
+Using rule 31
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <else_part>. Current token = LPAREN_T
+Using rule 17
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = SYMBOLP_T
+Using rule 26
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <else_part>. Current token = LPAREN_T
+Using rule 17
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = CHARP_T
+Using rule 30
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <else_part>. Current token = RPAREN_T
+Using rule 18
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <define>. Current token = LPAREN_T. Errors = 0
+Starting <more_defines>. Current token = LPAREN_T
+Using rule 3
+Starting <define>. Current token = LPAREN_T
+Using rule 2
+Starting <param_list>. Current token = IDENT_T
+Using rule 15
+Starting <param_list>. Current token = IDENT_T
+Using rule 15
+Starting <param_list>. Current token = RPAREN_T
+Using rule 16
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = LTE_T
+Using rule 40
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = IDENT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = LT_T
+Using rule 38
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = IDENT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = LT_T. Errors = 0
+Ending <quoted_lit>. Current token = LT_T. Errors = 0
+Ending <literal>. Current token = LT_T. Errors = 0
+Ending <stmt>. Current token = LT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <else_part>. Current token = LPAREN_T
+Using rule 17
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = LTE_T. Errors = 0
+Ending <quoted_lit>. Current token = LTE_T. Errors = 0
+Ending <literal>. Current token = LTE_T. Errors = 0
+Ending <stmt>. Current token = LTE_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <else_part>. Current token = LPAREN_T
+Using rule 17
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = GTE_T
+Using rule 39
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = IDENT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = GT_T
+Using rule 37
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = IDENT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = GT_T. Errors = 0
+Ending <quoted_lit>. Current token = GT_T. Errors = 0
+Ending <literal>. Current token = GT_T. Errors = 0
+Ending <stmt>. Current token = GT_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <else_part>. Current token = LPAREN_T
+Using rule 17
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = GTE_T. Errors = 0
+Ending <quoted_lit>. Current token = GTE_T. Errors = 0
+Ending <literal>. Current token = GTE_T. Errors = 0
+Ending <stmt>. Current token = GTE_T. Errors = 0
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <else_part>. Current token = RPAREN_T
+Using rule 18
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <define>. Current token = LPAREN_T. Errors = 0
+Starting <more_defines>. Current token = LPAREN_T
+Using rule 3
+Starting <define>. Current token = LPAREN_T
+Using rule 2
+Starting <param_list>. Current token = IDENT_T
+Using rule 15
+Starting <param_list>. Current token = RPAREN_T
+Using rule 16
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = IF_T
+Using rule 19
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = EQUALTO_T
+Using rule 36
+Starting <stmt_list>. Current token = IDENT_T
+Using rule 5
+Starting <stmt>. Current token = IDENT_T
+Using rule 8
+Ending <stmt>. Current token = QUOTE_T. Errors = 0
+Starting <stmt_list>. Current token = QUOTE_T
+Using rule 5
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <else_part>. Current token = RPAREN_T
+Using rule 18
+Ending <else_part>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <define>. Current token = LPAREN_T. Errors = 0
+Starting <more_defines>. Current token = LPAREN_T
+Using rule 3
+Starting <define>. Current token = LPAREN_T
+Using rule 2
+Starting <param_list>. Current token = RPAREN_T
+Using rule 16
+Ending <param_list>. Current token = RPAREN_T. Errors = 0
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = CONS_T
+Using rule 12
+Starting <any_other_token>. Current token = CONS_T
+Using rule 47
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IF_T
+Using rule 12
+Starting <any_other_token>. Current token = IF_T
+Using rule 48
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = DISPLAY_T
+Using rule 12
+Starting <any_other_token>. Current token = DISPLAY_T
+Using rule 49
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = NEWLINE_T
+Using rule 12
+Starting <any_other_token>. Current token = NEWLINE_T
+Using rule 50
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = LISTOP_T
+Using rule 12
+Starting <any_other_token>. Current token = LISTOP_T
+Using rule 51
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = AND_T
+Using rule 12
+Starting <any_other_token>. Current token = AND_T
+Using rule 52
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = OR_T
+Using rule 12
+Starting <any_other_token>. Current token = OR_T
+Using rule 53
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = NOT_T
+Using rule 12
+Starting <any_other_token>. Current token = NOT_T
+Using rule 54
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = DEFINE_T
+Using rule 12
+Starting <any_other_token>. Current token = DEFINE_T
+Using rule 55
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = NUMBERP_T
+Using rule 12
+Starting <any_other_token>. Current token = NUMBERP_T
+Using rule 56
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = SYMBOLP_T
+Using rule 12
+Starting <any_other_token>. Current token = SYMBOLP_T
+Using rule 57
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = LISTP_T
+Using rule 12
+Starting <any_other_token>. Current token = LISTP_T
+Using rule 58
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = ZEROP_T
+Using rule 12
+Starting <any_other_token>. Current token = ZEROP_T
+Using rule 59
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = NULLP_T
+Using rule 12
+Starting <any_other_token>. Current token = NULLP_T
+Using rule 60
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = CHARP_T
+Using rule 12
+Starting <any_other_token>. Current token = CHARP_T
+Using rule 61
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = STRINGP_T
+Using rule 12
+Starting <any_other_token>. Current token = STRINGP_T
+Using rule 62
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = PLUS_T
+Using rule 12
+Starting <any_other_token>. Current token = PLUS_T
+Using rule 63
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = MINUS_T
+Using rule 12
+Starting <any_other_token>. Current token = MINUS_T
+Using rule 64
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = DIV_T
+Using rule 12
+Starting <any_other_token>. Current token = DIV_T
+Using rule 65
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = MULT_T
+Using rule 12
+Starting <any_other_token>. Current token = MULT_T
+Using rule 66
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = EQUALTO_T
+Using rule 12
+Starting <any_other_token>. Current token = EQUALTO_T
+Using rule 67
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = GT_T
+Using rule 12
+Starting <any_other_token>. Current token = GT_T
+Using rule 68
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = LT_T
+Using rule 12
+Starting <any_other_token>. Current token = LT_T
+Using rule 69
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = GTE_T
+Using rule 12
+Starting <any_other_token>. Current token = GTE_T
+Using rule 70
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = LTE_T
+Using rule 12
+Starting <any_other_token>. Current token = LTE_T
+Using rule 71
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = DISPLAY_T
+Using rule 42
+Starting <stmt>. Current token = QUOTE_T
+Using rule 7
+Starting <literal>. Current token = QUOTE_T
+Using rule 11
+Starting <quoted_lit>. Current token = IDENT_T
+Using rule 12
+Starting <any_other_token>. Current token = IDENT_T
+Using rule 45
+Ending <any_other_token>. Current token = RPAREN_T. Errors = 0
+Ending <quoted_lit>. Current token = RPAREN_T. Errors = 0
+Ending <literal>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = LPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = LPAREN_T
+Using rule 5
+Starting <stmt>. Current token = LPAREN_T
+Using rule 9
+Starting <action>. Current token = NEWLINE_T
+Using rule 43
+Ending <action>. Current token = RPAREN_T. Errors = 0
+Ending <stmt>. Current token = RPAREN_T. Errors = 0
+Starting <stmt_list>. Current token = RPAREN_T
+Using rule 6
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <stmt_list>. Current token = RPAREN_T. Errors = 0
+Ending <define>. Current token = EOF_T. Errors = 0
+Starting <more_defines>. Current token = EOF_T
+Using rule 4
+Ending <more_defines>. Current token = EOF_T. Errors = 0
+Ending <more_defines>. Current token = EOF_T. Errors = 0
+Ending <more_defines>. Current token = EOF_T. Errors = 0
+Ending <more_defines>. Current token = EOF_T. Errors = 0
+Ending <more_defines>. Current token = EOF_T. Errors = 0
+Ending <program>. Current token = EOF_T. Errors = 0

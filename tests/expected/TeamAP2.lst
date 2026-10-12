@@ -1,0 +1,115 @@
+Input file: TeamAP2.ss
+   1: ; Assignment: Project 2 Testing
+   2: ; Authors: Nazania Barraza, Scott Mitchel, & JT Palmer
+   3: ; Date: Monday, April 23, 2017
+   4: ; Description: A testing file that will make sure our project 2 works correctly for every token type/grammer rule.
+   5: 
+   6: 
+   7: (define (equalities a b c d)
+   8:   (if (and (= a b) (= c d)) ; Checking AND_T and rule 22.
+   9:       (display 'both_equal)
+  10:       (if (or (= a b) (= c d)) ; Checking OR_T and rule 23.
+  11: 	  (display 'one_equal)
+  12: 	  (display 'no_equal)
+  13: 	  )
+  14:       )
+  15:   (newline)
+  16:   )
+  17: 
+  18: (define (checkInput a)
+  19:   (if (number? a) ; Checking NUMBERP_T and rule 25.
+  20:       (if (zero? a) ; Checking ZEROP_T and rule 28.
+  21: 	  (display 'is_zero)
+  22: 	  (display 'is_number)
+  23: 	  )
+  24:       (if (string? a) ; Checking STRINGP_T and rule 31.
+  25: 	  (display 'is_string)
+  26: 	  (if (symbol? a) ; Checking SYMBOLP_T and rule 26.
+  27: 	      (display 'is_symbol)
+  28: 	      (if (char? a) ; Checking CHARP_T and rule 30.
+  29: 		  (display 'is_character)
+  30: 		  )
+  31: 	      )
+  32: 	  )
+  33:       )
+  34:   (newline)
+  35:   )
+  36: 
+  37: (define (quantities a b)
+  38:   (if (<= a b) ; Checking LTE_T and rule 40.
+  39:       (if (< a b) ; Checking LT_T and rule 38.
+  40: 	  (display 'a<b)
+  41: 	  (display 'a<=b)
+  42: 	  )
+  43:       (if (>= a b) ; Checking GTE_T and rule 39.
+  44: 	  (if (> a b) ; Checking GT_T and rule 37.
+  45: 	      (display 'a>b)
+  46: 	      (display 'a>=b)
+  47: 	      )
+  48: 	  )
+  49:       )
+  50:   (newline)
+  51:   )
+  52: 
+  53: (define (isCoolLetter n)
+  54:   (if (= n 'n) ; Checking rule 18.
+  55:       (display 'Very_Cool_Letter)
+  56:       )
+  57:   (newline)
+  58:   )
+  59: 
+  60: (define (checkAnyOtherTokens)
+  61:   (display 'cons) ; Checking rule 47.
+  62:   (newline)
+  63:   (display 'if) ; Checking rule 48.
+  64:   (newline)
+  65:   (display 'display) ; Checking rule 49.
+  66:   (newline)
+  67:   (display 'newline) ; Checking rule 50.
+  68:   (newline)
+  69:   (display 'car) ; Checking rule 51.
+  70:   (newline)
+  71:   (display 'and) ; Checking rule 52.
+  72:   (newline)
+  73:   (display 'or) ; Checking rule 53.
+  74:   (newline)
+  75:   (display 'not) ; Checking rule 54.
+  76:   (newline)
+  77:   (display 'define) ; Checking rule 55.
+  78:   (newline)
+  79:   (display 'number?) ; Checking rule 56.
+  80:   (newline)
+  81:   (display 'symbol?) ; Checking rule 57.
+  82:   (newline)
+  83:   (display 'list?) ; Checking rule 58.
+  84:   (newline)
+  85:   (display 'zero?) ; Checking rule 59.
+  86:   (newline)
+  87:   (display 'null?) ; Checking rule 60.
+  88:   (newline)
+  89:   (display 'char?) ; Checking rule 61.
+  90:   (newline)
+  91:   (display 'string?) ; Checking rule 62.
+  92:   (newline)
+  93:   (display '+) ; Checking rule 63.
+  94:   (newline)
+  95:   (display '-) ; Checking rule 64.
+  96:   (newline)
+  97:   (display '/) ; Checking rule 65.
+  98:   (newline)
+  99:   (display '*) ; Checking rule 66.
+ 100:   (newline)
+ 101:   (display '=) ; Checking rule 67.
+ 102:   (newline)
+ 103:   (display '>) ; Checking rule 68.
+ 104:   (newline)
+ 105:   (display '<) ; Checking rule 69.
+ 106:   (newline)
+ 107:   (display '>=) ; Checking rule 70.
+ 108:   (newline)
+ 109:   (display '<=) ; Checking rule 71.
+ 110:   (newline)
+ 111:   (display 'naz_is_amazing) ; Checking rule 72.
+ 112:   (newline)
+ 113:   )
+0 errors found in input file

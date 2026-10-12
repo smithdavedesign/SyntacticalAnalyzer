@@ -1,0 +1,114 @@
+Input file: test.ss
+   1: ; This is a very small test file
+   2: 
+   3: (define (main)
+	LPAREN_T        (
+program function called
+define function called
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+param function called
+param_list function returning 0 errors
+
+   4: 	(display (car '(a b (car ls))))
+	LPAREN_T        (
+stmt function called
+	DISPLAY_T       display
+action function called
+	LPAREN_T        (
+stmt function called
+	LISTOP_T        car
+action function called
+	QUOTE_T         '
+stmt function called
+literal function called
+	LPAREN_T        (
+quoted_lit function called
+any_other_token function called
+	IDENT_T         a
+more_tokens function called
+any_other_token function called
+	IDENT_T         b
+any_other_token function returning 0 errors
+
+more_tokens function called
+any_other_token function called
+	LPAREN_T        (
+any_other_token function returning 0 errors
+
+more_tokens function called
+any_other_token function called
+	LISTOP_T        car
+more_tokens function called
+any_other_token function called
+	IDENT_T         ls
+any_other_token function returning 0 errors
+
+more_tokens function called
+any_other_token function called
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+more_tokens function called
+more_tokens function returning 0 errors
+
+more_tokens function returning 0 errors
+
+more_tokens function returning 0 errors
+
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+more_tokens function called
+more_tokens function returning 0 errors
+
+more_tokens function returning 0 errors
+
+more_tokens function returning 0 errors
+
+more_tokens function returning 0 errors
+
+	RPAREN_T        )
+any_other_token function returning 0 errors
+
+quoted_lit function returning 0 errors
+
+literal function returning 0 errors
+
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+	RPAREN_T        )
+stmt function returning 0 errors
+
+action function returning 0 errors
+
+   5: 	(newline)
+	LPAREN_T        (
+stmt function returning 0 errors
+
+stmt function called
+stmt function called
+	NEWLINE_T       newline
+action function called
+	RPAREN_T        )
+action function returning 0 errors
+
+   6: )
+	RPAREN_T        )
+stmt function returning 0 errors
+
+stmt function called
+stmt_list function returning 0 errors
+
+stmt_list function returning 0 errors
+
+define function returning 0 errors
+
+more_defines function called
+more_defines function returning 0 errors
+program function returning 0 errors
+0 errors found in input file
