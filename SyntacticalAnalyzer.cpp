@@ -65,16 +65,16 @@ static int gram_rules[12][34] =
 
 /********************************************************************************/
 /* This function will: creat new instance of class, init my file. gets first token/
-/********************************************************************************/
+*********************************************************************************/
 SyntacticalAnalyzer::SyntacticalAnalyzer (char * filename)
 {
 	lex = new LexicalAnalyzer (filename);
-	int fnlength = strlen (filename);
-	filename[fnlength-2] = 'p';
-	filename[fnlength-1] = '2';
-	p2file.open (filename);
+	// test.ss -> test.p2, next to the input (it used to overwrite the last 2 characters of the path)
+	string p2name = filename;
+	size_t dot = p2name.rfind ('.');
+	p2file.open ((p2name.substr (0, dot) + ".p2").c_str ());
 	token = lex->GetToken();
-	int errors = program ();
+	program ();
 }
 
 /********************************************************************************/
@@ -93,7 +93,7 @@ are no syntax errors.
 */
 /********************************************************************************/
 /* This function will: rule 1.
-/********************************************************************************/
+*********************************************************************************/
 int SyntacticalAnalyzer::program ()
 {//0
 
